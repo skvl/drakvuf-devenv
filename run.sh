@@ -2,4 +2,4 @@
 
 set -e
 
-docker run -v $(pwd)/..:/home/developer/src -it work/env
+docker run -v $(pwd)/..:/home/$(id -nu)/src -it work/env
